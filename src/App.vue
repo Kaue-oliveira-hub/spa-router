@@ -1,10 +1,9 @@
 <template>
-  <div>
-<h1 class="text-2l ">Hola Mundo</h1>
-  </div>
+ <DomusPagina />
 </template>
 
 <script setup lang="ts">
+import DomusPagina from './modulorum/landing/pagimae/DomusPagina.vue';
 
 </script>
 
