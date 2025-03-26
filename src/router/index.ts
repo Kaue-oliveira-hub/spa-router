@@ -21,7 +21,7 @@ export const router = createRouter({
         {
             path:'/pricing',
             name:'pricing',
-            component: () => import('@/modulorum/landing/paginae/pretiumPagina.vue'),
+            component: () => import('@/modulorum/landing/paginae/PretiumPagina.vue'),
         },
 
         {
