@@ -1,9 +1,11 @@
 <template>
- <DomusPagina />
+ <RouterView />
 </template>
 
 <script setup lang="ts">
-import DomusPagina from './modulorum/landing/pagimae/DomusPagina.vue';
+import { RouterView } from 'vue-router';
+
+
 
 </script>
 
