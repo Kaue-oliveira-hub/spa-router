@@ -10,11 +10,19 @@
    </a>
 </div>
 
-<nav>
+<nav class="m-20 space-x-4 ml-auto flex items-end">
+
+    <div class="space-x-4">
     <RouterLink :to="{name: 'home' }">Home</RouterLink>
     <RouterLink to="/features">Features</RouterLink>
     <RouterLink to="/pricing">Pricing</RouterLink>
     <RouterLink to="/contact">Contact</RouterLink>
+    </div>
+
+    <div>
+        <RouterLink to="/Pokemon/1">Pokemons</RouterLink>
+        <RouterLink to="/auth">Login</RouterLink>
+    </div>
 </nav>
 </header>
 
