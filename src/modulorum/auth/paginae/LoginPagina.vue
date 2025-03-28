@@ -57,8 +57,8 @@ import { useRouter } from 'vue-router';
 
 const router = useRouter();
 
-const cumLogin = () => {
- 
+
+ const cumLogin = () => {
   router.replace({ 
     name: 'home' 
   });
