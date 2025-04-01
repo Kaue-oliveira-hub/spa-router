@@ -7,5 +7,11 @@
     Lorem ipsum dolor sit amet, consectetur adipiscing elit.
 </p>
 </div>
+<p>Contador: {{ numerator }}</p>
+<button @click="numerator++">+1</button>
 
 </template>
+
+<script  lang="ts" src="./DomusPagina.ts">
+
+</script>
